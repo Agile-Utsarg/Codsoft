@@ -21,5 +21,5 @@ def main():
     password = generate_password(length)
     print(f"\nGenerated Password: {password}")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
